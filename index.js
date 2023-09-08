@@ -14,6 +14,3 @@ let seconds = date.getUTCSeconds();
 
 let currentUTC = document.getElementById("current_utc");
 currentUTC.innerHTML = date.getTime();
-//currentUTC.innerHTML = `${hour.toString().padStart(2, '0')}:
-                        //${minutes.toString().padStart(2, '0')}:
-                        //${seconds.toString().padStart(2, '0')}`
