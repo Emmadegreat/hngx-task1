@@ -43,7 +43,6 @@ h3{
 }
 .profile-section>div{
     flex-basis: 46%;
-    border: 1px solid red;
     margin-top: 1.5rem;
 }
 .profile-section img{
