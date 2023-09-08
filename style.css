@@ -27,28 +27,30 @@ main{
 h2{
     font-size: 2rem;
     padding-bottom: 1rem;
+    color: #1d3344;
 }
-h3{
+p{
     font-size: 1.8rem;
 }
+/*===========profile-section==========*/
 .profile-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 .profile-section h1{
     text-align: center;
     font-weight: 900;
     font-size: 4rem;
+    color: #1d3344;
+    margin: 2rem;
 }
-.profile-section>div{
-    flex-basis: 46%;
-    margin-top: 1.5rem;
-}
+
 .profile-section img{
     width: 100%;
-    max-width: 400px;
-    height: 400px;
+    max-width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
 
@@ -58,20 +60,21 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding: 5rem 0rem 3rem 0rem;
+    justify-content: center;
+    padding-top: 5rem;
 }
 .date-section>div{
     text-align: center;
     margin-bottom: 5rem;
 }
-/*==============date-section==========*/
+/*==============track-section==========*/
 
 .track-section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 .track-section>div{
     margin: 2rem 0rem;
@@ -98,12 +101,11 @@ footer{
     align-items: center;
     justify-content: center;
 }
+footer p{
+    font-size: 1rem;
+}
 
 @media (max-width:900px) {
-    .profile-section{
-        flex-direction: column;
-        align-items: center;
-    }
     .profile-section>div{
         display: flex;
         flex-direction: column;
