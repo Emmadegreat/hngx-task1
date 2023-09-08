@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 80px;
+    padding: 0rem 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+}
+header b{
+    color: #1d3344;
+    font-size: 3rem;
+}
+main{
+    padding: 6rem 4rem;
+}
+h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+.profile-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-section h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.profile-section>div{
+    flex-basis: 46%;
+    border: 1px solid red;
+    margin-top: 1.5rem;
+}
+.profile-section img{
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+/*==============date-section==========*/
+
+.date-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 0rem 3rem 0rem;
+}
+.date-section>div{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+/*==============date-section==========*/
+
+.track-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.track-section>div{
+    margin: 2rem 0rem;
+}
+.track-section a{
+    text-decoration: none;
+    background-color: #1d3344;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 7rem;
+}
+
+/*=========footer========*/
+footer{
+    width: 100%;
+    background-color: #1d3344;
+    color: #fff;
+    height: 80px;
+    padding: 0rem 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:900px) {
+    .profile-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-section>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-section img{
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width:768px) {
+    main{
+        padding: 6rem 2rem;
+    }
+    header{
+        padding: 1rem;
+    }
+    header b{
+        font-size: 1.5rem;
+
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .track-section a{
+        padding: 1rem;
+    }
+}
