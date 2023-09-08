@@ -4,10 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+     background-color: #1d3344;
+}
 
 header{
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #1d3344;
     height: 80px;
     padding: 0rem 4rem;
     text-align: center;
@@ -17,20 +20,14 @@ header{
     position: fixed;
     z-index: 1000;
 }
-header b{
-    color: #1d3344;
-    font-size: 3rem;
-}
+
 main{
     padding: 6rem 4rem;
 }
-h2{
-    font-size: 2rem;
-    padding-bottom: 1rem;
-    color: #1d3344;
-}
+
 p{
     font-size: 1.8rem;
+    color: #fff;
 }
 /*===========profile-section==========*/
 .profile-section{
@@ -43,7 +40,7 @@ p{
     text-align: center;
     font-weight: 900;
     font-size: 4rem;
-    color: #1d3344;
+    color: #fff;
     margin: 2rem;
 }
 
@@ -81,8 +78,8 @@ p{
 }
 .track-section a{
     text-decoration: none;
-    background-color: #1d3344;
-    color: #fff;
+    background-color: #fff;
+    color: #1d3344;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -90,20 +87,6 @@ p{
 }
 
 /*=========footer========*/
-footer{
-    width: 100%;
-    background-color: #1d3344;
-    color: #fff;
-    height: 80px;
-    padding: 0rem 4rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer p{
-    font-size: 1rem;
-}
 
 @media (max-width:900px) {
     .profile-section>div{
